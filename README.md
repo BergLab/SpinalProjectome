@@ -16,8 +16,24 @@ This framework allows you to:
 
 ## Requirements
 
-- MATLAB (recommended version: X or higher)
-- MATLAB toolboxes: (list specific toolboxes if applicable, e.g., Signal Processing Toolbox)
+- MATLAB (recommended version: 2024b or higher)
+- MATLAB toolboxes (possibly, I just listed here all the toolboxes installed on my MATLAB distribution :D):
+
+Computer Vision Toolbox                               Version 24.2        (R2024b)
+Curve Fitting Toolbox                                 Version 24.2        (R2024b)
+DSP System Toolbox                                    Version 24.2        (R2024b)
+Deep Learning Toolbox                                 Version 24.2        (R2024b)
+Image Processing Toolbox                              Version 24.2        (R2024b)
+Parallel Computing Toolbox                            Version 24.2        (R2024b)
+Partial Differential Equation Toolbox                 Version 24.2        (R2024b)
+Phased Array System Toolbox                           Version 24.2        (R2024b)
+Predictive Maintenance Toolbox                        Version 24.2        (R2024b)
+Reinforcement Learning Toolbox                        Version 24.2        (R2024b)
+Signal Processing Toolbox                             Version 24.2        (R2024b)
+Statistics and Machine Learning Toolbox               Version 24.2        (R2024b)
+System Identification Toolbox                         Version 24.2        (R2024b)
+Wavelet Toolbox                                       Version 24.2        (R2024b)
+
 - Clone or download this repository and set your MATLAB path accordingly.
 - Set the root of your working directory at the level of the repository.
 ---
