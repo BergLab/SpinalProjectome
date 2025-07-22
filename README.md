@@ -65,8 +65,8 @@ MyNetwork.AddCelltype( Celltype.V2a_2, ...
     '', ...                  % BiasSegment: none specified
     '', ...                  % BiasLayer: none specified
     600, ...                 % LengthScale: spatial spread in micrometers
-    'Gain', 0.7, ...
-    'SynStrength', gc*1 );
+    'Gain', 0.7, ...         % Gain: Slope of the activation function of this celltype (sensitivity to input)
+    'SynStrength', 1 );   % SynStrength: The mean of the Gaussian distribution from which the synaptic strength are sampled.
 ```
 
 #### Required Bias Properties (in the right order)
