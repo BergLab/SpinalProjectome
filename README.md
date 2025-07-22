@@ -19,14 +19,16 @@ This framework allows you to:
 - MATLAB (recommended version: X or higher)
 - MATLAB toolboxes: (list specific toolboxes if applicable, e.g., Signal Processing Toolbox)
 - Clone or download this repository and set your MATLAB path accordingly.
-
+- Set the root of your working directory at the level of the repository.
 ---
 
 ## Step-by-Step Usage
 
+An example usage of the framework can be found in the **InstantiateModel** file
+
 ### 1. Instantiate Network Parameters
 
-Create the container for all network parameters and cell types:
+First, you will create the container for all network parameters and cell types:
 
 ```matlab
 MyNetwork = NetworkParameters();
