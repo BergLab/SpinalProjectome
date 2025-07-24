@@ -128,7 +128,7 @@ You can now run a simulation by simply calling the method N.Simulate() with the 
 
 ```matlab
 t_steps = 10000; % Set duration of the simulation in ms
-I_e = zeros(size(N.ConnMat,1),t_steps); initialise an input matrix (NumberOfNeuronsXDuration). You hence can design the input to any cell the way you want.
+I_e = zeros(size(N.ConnMat,1),t_steps); % initialise an input matrix (NumberOfNeuronsXDuration). You hence can design the input to any cell the way you want.
 I_e(:,:) = 30;
 N.Simulate(t_steps,'I_e',I_e); 
 ```
